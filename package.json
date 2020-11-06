@@ -1,0 +1,27 @@
+{
+  "name": "interfaz-auto-marcador-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Roberto Santos Yela",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "csvtojson": "^2.0.10",
+    "dot": "^1.1.3",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.12",
+    "node-localstorage": "^2.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
