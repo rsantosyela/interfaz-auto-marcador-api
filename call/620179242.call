@@ -1,7 +1,0 @@
-Channel: Local/620179242​​​​​​​@ivr-autoDialing
-Application: Dial
-Data: Local/626906319​​​​​​​@agents
-MaxRetries: undefined​​​​​​​
-RetryTime: 600
-Setvar: maxRetry=undefined
-Setvar: retryTime=600

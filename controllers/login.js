@@ -28,7 +28,7 @@ var controller = {
                     var token = jwt.sign({ email: user.email }, privateKey);
                     user.token = token;
 
-                    return res.status(200).send({message: "Usuario logeado con éxito"});
+                    return res.status(200).send(user);
 
                 }else{
 

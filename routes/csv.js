@@ -7,6 +7,7 @@ var multiparty = require('connect-multiparty'),
 
 var router = express.Router();
 
-router.post('/csv', multipartyMiddleware, CsvController.uploadCsv);
+router.post('/import-csv', multipartyMiddleware, CsvController.uploadCsv);
+router.get('/download-csv', multipartyMiddleware, CsvController.downloadCsv);
 
 module.exports = router;
